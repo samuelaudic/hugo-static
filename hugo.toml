@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '<p>Je suis développeur</p>'
+theme = 'ananke'
