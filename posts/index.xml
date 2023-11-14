@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&lt;p&gt;Je suis développeur&lt;/p&gt;</title>
-    <link>https://samuelaudic.github.io/hugo-static/</link>
-    <description>Recent content on &lt;p&gt;Je suis développeur&lt;/p&gt;</description>
+    <title>Posts on &lt;p&gt;Je suis développeur&lt;/p&gt;</title>
+    <link>https://samuelaudic.github.io/hugo-static/posts/</link>
+    <description>Recent content in Posts on &lt;p&gt;Je suis développeur&lt;/p&gt;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Nov 2023 13:41:53 +0100</lastBuildDate>
-    <atom:link href="https://samuelaudic.github.io/hugo-static/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://samuelaudic.github.io/hugo-static/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>https://samuelaudic.github.io/hugo-static/posts/my-first-post/</link>
