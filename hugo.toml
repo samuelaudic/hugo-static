@@ -1,4 +1,9 @@
 baseURL = 'https://samuelaudic.github.io/hugo-static/'
-languageCode = 'en-us'
-title = '<p>Je suis développeur</p>'
-theme = 'ananke'
+languageCode = "fr-fr"
+title = "Mon Blog sur le Développement Web"
+theme = "ananke"
+
+[params]
+description = "Un blog personnel sur le développement web, la programmation et les nouvelles technologies."
+# Paramètres spécifiques au thème Ananke
+showReadingTime = true
