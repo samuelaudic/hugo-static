@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on &lt;p&gt;Je suis développeur&lt;/p&gt;</title>
+    <title>Posts on Mon Blog sur le Développement Web</title>
     <link>https://samuelaudic.github.io/hugo-static/posts/</link>
-    <description>Recent content in Posts on &lt;p&gt;Je suis développeur&lt;/p&gt;</description>
+    <description>Recent content in Posts on Mon Blog sur le Développement Web</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-fr</language>
     <lastBuildDate>Tue, 14 Nov 2023 13:41:53 +0100</lastBuildDate>
     <atom:link href="https://samuelaudic.github.io/hugo-static/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,8 @@
       <link>https://samuelaudic.github.io/hugo-static/posts/my-first-post/</link>
       <pubDate>Tue, 14 Nov 2023 13:41:53 +0100</pubDate>
       <guid>https://samuelaudic.github.io/hugo-static/posts/my-first-post/</guid>
-      <description></description>
+      <description>Titre de la Page Ceci est un paragraphe normal. Vous pouvez ajouter du texte, des liens, des images et bien plus encore dans une page Markdown.
+Sous-titre Sous-sous-titre Les listes à puces sont faciles à créer Elles peuvent avoir différents niveaux Sous-niveau dans la liste Les listes numérotées sont également simples Elles permettent d&amp;rsquo;organiser le contenu Texte en gras ou texte en italique peuvent être utilisés pour mettre l&amp;rsquo;accent.</description>
     </item>
   </channel>
 </rss>
