@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=League+Spartan:wght@300;400;500;600;700;800&display=swap');
+
+/* 
+theme.css
+*/
+
+:root {
+    --color-orange: #ef5742;
+}
+
+body {
+    font-family: "League Spartan", sans-serif !important;
+}
+
+nav[role="navigation"]>div>a:first-child {
+    font-family: 'Kaushan Script' !important;
+    font-size: 32px !important;
+    color: var(--color-orange);
+}
+
+h1 {
+    font-weight: 600 !important;
+}
+
+/* Page Articles */
+p,
+ul>li {
+    font: normal 300 18px/24px 'League Spartan' !important;
+    color: black;
+}
+
+.pa0 a {
+    font-family: 'League Spartan';
+    color: var(--color-orange);
+    border-color: var(--color-orange);
+}
+
+.pa0 a:hover {
+    background: var(--color-orange);
+    color: white;
+}
+
+article>header>* {
+    margin: 0 !important;
+}

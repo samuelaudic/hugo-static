@@ -1,10 +1,7 @@
 ---
-title: "Ananke: Un thème pour Hugo"
+title: "Bonjour !"
 
-description: "Le dernier thème dont vous aurez besoin. Peut-être"
+description: "Je suis Samuel Audic, développeur web junior"
 cascade:
-  featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+  featured_image: 'images/web-devel-important.jpg'
 ---
-# Bonjour !
-
-Bienvenue sur mon blog à propos de mon travail du moment. Je travaille sur une idée de livre. Vous pouvez lire quelques chapitres plus bas.

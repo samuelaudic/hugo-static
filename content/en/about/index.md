@@ -1,11 +1,11 @@
 ---
-title: "About"
+title: "About me"
 description: "A few years ago, while visiting or, rather, rummaging about Notre-Dame, the author of this book found, in an obscure nook of one of the towers, the following word, engraved by hand upon the wall: —ANANKE."
 featured_image: '/images/Victor_Hugo-Hunchback.jpg'
 menu:
   main:
     weight: 1
 ---
-{{< figure src="/images/Victor_Hugo-Hunchback.jpg" title="Illustration from Victor Hugo et son temps (1881)" >}}
 
-_The Hunchback of Notre-Dame_ (French: _Notre-Dame de Paris_) is a French Romantic/Gothic novel by Victor Hugo, published in 1831. The original French title refers to Notre Dame Cathedral, on which the story is centered. English translator Frederic Shoberl named the novel The Hunchback of Notre Dame in 1833 because at the time, Gothic novels were more popular than Romance novels in England. The story is set in Paris, France in the Late Middle Ages, during the reign of Louis XI.
+My name is Samuel Audic and I'm 22 years old. I'm passionate about new technologies, computing and the web. My hobbies include travel, cinema, video games and sports.
+Since I was a child, I've been lucky enough to visit countries such as Spain, Italy, the Netherlands and the United States. Thanks to these experiences, I've been able to discover new cultures and enrich my foreign language skills.
