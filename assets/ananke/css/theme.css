@@ -6,16 +6,22 @@ theme.css
 
 :root {
     --color-orange: #ef5742;
+    --color-white: #F4F4F4;
+}
+
+#customNav,
+footer {
+    padding: 24px 4% !important;
 }
 
 body {
     font-family: "League Spartan", sans-serif !important;
 }
 
-nav[role="navigation"]>div>a:first-child {
+.logo {
     font-family: 'Kaushan Script' !important;
     font-size: 32px !important;
-    color: var(--color-orange);
+    color: var(--color-white);
 }
 
 h1 {
@@ -23,6 +29,17 @@ h1 {
 }
 
 /* Page Articles */
+ul {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nested-links ul:not(.pa0) {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 p,
 ul>li {
     font: normal 300 18px/24px 'League Spartan' !important;
@@ -42,4 +59,67 @@ ul>li {
 
 article>header>* {
     margin: 0 !important;
+}
+
+#burger {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .navContainer {
+        display: flex;
+        justify-content: space-between;
+        row-gap: 1rem;
+    }
+
+    #navHeader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 240px;
+        height: 100vh;
+        transform: translateX(-110%);
+        background: var(--color-orange);
+        transition: all cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+    }
+
+    #customNav.open #navHeader {
+        transform: translateX(0);
+        z-index: 99;
+        padding: 1rem 4%;
+    }
+
+    #customNav.open #navHeader ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #burger {
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+        cursor: pointer;
+    }
+
+    #burger span {
+        background: var(--color-white);
+        width: 32px;
+        height: 3px;
+        border-radius: 50px;
+        transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .2s;
+    }
+
+    #burger.open span:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    #burger.open span:nth-child(2) {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    #burger.open span:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+    }
 }
