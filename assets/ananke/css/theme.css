@@ -41,9 +41,17 @@ ul {
 }
 
 p,
+ol>li,
 ul>li {
     font: normal 300 18px/24px 'League Spartan' !important;
     color: black;
+}
+
+main>article {
+    margin: 0;
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+    max-width: none !important;
 }
 
 .pa0 a {
