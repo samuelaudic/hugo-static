@@ -1,7 +1,7 @@
 ---
 title: "A Propos"
-description: "A few years ago, while visiting or, rather, rummaging about Notre-Dame, the author of this book found, in an obscure nook of one of the towers, the following word, engraved by hand upon the wall: —ANANKE."
-featured_image: '/images/Victor_Hugo-Hunchback.jpg'
+description: "Je m'appelle Samuel Audic et j'ai 22 ans. Je suis passionné par les nouvelles technologies, l'informatique et le web."
+featured_image: '/images/about-img.jpeg'
 menu:
   main:
     weight: 1

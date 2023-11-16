@@ -40,5 +40,3 @@ GitHub Pages permet d'héberger des sites statiques, y compris ceux créés avec
 5. Dans les paramètres de votre dépôt GitHub, configurez GitHub Pages pour utiliser la branche `gh-pages` ou le dossier `/docs` (selon votre configuration).
 
 Une fois ces étapes terminées, votre site Hugo sera accessible via GitHub Pages à l'adresse `https://votre-nom-utilisateur.github.io/nom-de-votre-repo`.
-
-Ceci est une introduction basique à l'utilisation d'Hugo avec GitHub Pages. Pour des instructions plus détaillées, référez-vous à la documentation officielle d'Hugo et de GitHub Pages.

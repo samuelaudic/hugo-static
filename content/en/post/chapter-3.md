@@ -40,5 +40,3 @@ GitHub Pages allows hosting static sites, including those created with Hugo. Her
 5. In your GitHub repository settings, configure GitHub Pages to use the `gh-pages` branch or `/docs` folder (depending on your setup).
 
 Once these steps are completed, your Hugo site will be accessible via GitHub Pages at `https://your-username.github.io/your-repo-name`.
-
-This is a basic introduction to using Hugo with GitHub Pages. For more detailed instructions, refer to the official documentation of Hugo and GitHub Pages.
