@@ -73,6 +73,15 @@ article>header>* {
     display: none;
 }
 
+article p>img {
+    display: flex;
+    margin: auto;
+    max-width: 280px;
+    border-radius: 100%;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px #00000049;
+}
+
 @media screen and (max-width: 1024px) {
     .navContainer {
         display: flex;
