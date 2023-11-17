@@ -139,4 +139,8 @@ article p>img {
     #burger.open span:nth-child(3) {
         transform: translateY(-10px) rotate(-45deg);
     }
+
+    footer>div {
+        flex-direction: column !important;
+    }
 }
